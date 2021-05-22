@@ -1,6 +1,8 @@
 // AWTRIX Controller
 // Copyright (C) 2020
 // by Blueforcer & Mazze2000
+//
+// BlueDOT Erweiterung Daniel Kuhn 22.05.2021
 
 #include <FS.h>
 #include <ArduinoOTA.h>
@@ -66,7 +68,7 @@ int connectionTimout;
 bool MatrixType2 = false;
 int matrixTempCorrection = 0;
 
-String version = "0.37";
+String version = "0.37_1";
 char awtrix_server[16] = "0.0.0.0";
 char Port[6] = "7001"; // AWTRIX Host Port, default = 7001
 IPAddress Server;
